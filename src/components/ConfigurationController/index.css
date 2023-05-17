@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg-main {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #475569;
+  color: #f1f5f9;
+}
+.heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+.list {
+  list-style: none;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.checkbox {
+  cursor: pointer;
+}
+.label {
+  margin-left: 5px;
+  cursor: pointer;
+}

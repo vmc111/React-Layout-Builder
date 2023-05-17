@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.bg-header {
+  background-color: #cbd5e1;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  color: #64748b;
+  font-size: 22px;
+  font-weight: bold;
+}

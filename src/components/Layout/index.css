@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.bg-layout {
+  margin: 2vh 0px;
+  padding: 1vh 5vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}

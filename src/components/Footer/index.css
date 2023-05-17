@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.bg-footer {
+  margin-top: 5px;
+  background-color: #cbd5e1;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-heading {
+  color: #64748b;
+  font-size: 22px;
+  font-weight: bold;
+}
