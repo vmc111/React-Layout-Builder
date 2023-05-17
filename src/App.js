@@ -9,8 +9,8 @@ import ConfigurationContext from './context/ConfigurationContext'
 
 class App extends Component {
   state = {
-    showLeftNav: false,
-    showContent: false,
+    showLeftNav: true,
+    showContent: true,
     showRightNav: true,
   }
 
@@ -35,8 +35,8 @@ class App extends Component {
       <ConfigurationContext.Provider
         value={{
           showContent,
-          showLeftNavbar: showRightNav,
-          showRightNavbar: showLeftNav,
+          showLeftNavbar: showLeftNav,
+          showRightNavbar: showRightNav,
           onToggleShowContent: this.onToggleContent,
           onToggleShowLeftNavbar: this.onToogleLeftNav,
           onToggleShowRightNavbar: this.onToogleRightNav,

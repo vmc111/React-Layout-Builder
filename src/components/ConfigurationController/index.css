@@ -1,30 +1,60 @@
-/* Write your CSS here */
-.bg-main {
-  margin-top: 0px;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-bottom: 5px;
-  width: 100%;
-  max-width: 1200px;
+.configuration-controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #475569;
-  color: #f1f5f9;
 }
-.heading {
-  font-size: 22px;
-  font-weight: bold;
+
+@media screen and (min-width: 768px) {
+  .configuration-controls-container {
+    align-items: center;
+  }
 }
-.list {
-  list-style: none;
+
+.responsive-controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 550px;
 }
-.list-item {
+
+@media screen and (min-width: 768px) {
+  .responsive-controls-container {
+    max-width: 1140px;
+  }
+}
+
+.layout-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-heading {
+    font-size: 48px;
+  }
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.checkbox-container {
   display: flex;
   align-items: center;
-  margin: 10px 0px;
-}
-.checkbox {
-  cursor: pointer;
-}
-.label {
-  margin-left: 5px;
-  cursor: pointer;
+  margin-bottom: 20px;
 }
